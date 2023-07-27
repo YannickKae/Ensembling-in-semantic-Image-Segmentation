@@ -7,4 +7,10 @@
   <i>Source: Kaggle</i>
 </p>
 
-This repository contains our work on ensembling in semantic image segmentation as part of the Google Research Kaggle competition "Identify Contrails to Reduce Global Warming".
+## The Competition
+
+## Segmentation Models
+
+## Ensembling Techniques
+
+## Results
