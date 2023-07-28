@@ -9,7 +9,7 @@
 
 Avoiding condensation trails, clouds of ice crystals that form in the exhaust of aircraft engines, is an effective sustainability strategy for airlines. Persistent contrails contribute to global warming by trapping heat in the atmosphere. Scientists have developed models to predict the formation and impact of condensation trails and are validating their predictions with satellite images.
 
-The goal of this contest was to improve corresponding prediction models by verifying the accuracy of those models using satellite imagery. There this was a semantic segmentation task.
+The goal of this contest was to improve corresponding prediction models by verifying the accuracy of those models using satellite imagery. Therefore, this was a semantic segmentation task.
 
 ## Segmentation Models
 
