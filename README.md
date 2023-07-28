@@ -27,4 +27,13 @@ From the ``segmentation-models-pytorch`` library, we considered the following ni
 
 ## Ensembling Techniques
 
+There are basically four ways to combine these models::
+
+- **Majority Voting**: In this approach, the model with the most "votes" is chosen for each pixel. If more than half of the models say that a pixel is a contrail, then it is a contrail, otherwise it is not. This approach is easy to implement and can work well if the models are relatively independent.
+- **Average predictions**: This approach averages the output of the models for each pixel. This can be useful when the models have similar outputs and you want to avoid overpredictions from a single model.
+- **Weighted Average Predictions**: Similar to Average Predictions, but each model is assigned a weight corresponding to its performance. The better performing models are given more weight.
+- **Generalized Stacking**: Another model is trained that learns to combine the predictions of the individual models. This can be more complex to implement, but can also lead to better results if done well.
+
 ## Results
+
+## Further Improvements
