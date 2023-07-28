@@ -36,9 +36,9 @@ There are basically four ways to combine these models::
 
 ## Results
 
-### Mjority Voting
+### Majority Voting
 
-### Average predictions
+### Average Prediction
 
 ### Weighted Average Prediction
 
